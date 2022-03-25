@@ -1,6 +1,0 @@
-#ifndef AFFICHERMENU_H_INCLUDED
-#define AFFICHERMENU_H_INCLUDED
-
-
-void afficherMenu();
-#endif // AFFICHERMENU_H_INCLUDED

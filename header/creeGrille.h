@@ -1,0 +1,6 @@
+#ifndef CREEGRILLE_H_INCLUDED
+#define CREEGRILLE_H_INCLUDED
+
+
+GtkWidget*creeGrille();
+#endif // CREEGRILLE_H_INCLUDED

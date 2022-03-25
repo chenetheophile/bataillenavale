@@ -1,0 +1,7 @@
+#ifndef AFFICHERPLATEAU_H_INCLUDED
+#define AFFICHERPLATEAU_H_INCLUDED
+
+
+void afficherPlateau(int plateau[11][11]);
+
+#endif // AFFICHERPLATEAU_H_INCLUDED

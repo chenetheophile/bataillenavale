@@ -1,0 +1,6 @@
+#ifndef CONNECTERBOUTON_H_INCLUDED
+#define CONNECTERBOUTON_H_INCLUDED
+
+void connecterbouton();
+
+#endif // CONNECTERBOUTON_H_INCLUDED

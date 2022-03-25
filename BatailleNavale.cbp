@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="BatailleNavale" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/BatailleNavale" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/BatailleNavale" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+					<Add option="-lmingw32" />
+					<Add option="-lSDL2main" />
+					<Add option="-lSDL2" />
+					<Add option="-lSDL2_mixer" />
+					<Add library="dll/libwsock32.a" />
+					<Add library="dll/libSDL2main.a" />
+					<Add library="dll/libgdk_pixbuf-2.0.dll.a" />
+					<Add library="dll/libgdk-3.dll.a" />
+					<Add library="dll/libglib-2.0.dll.a" />
+					<Add library="dll/libgobject-2.0.dll.a" />
+					<Add library="dll/libSDL2.dll.a" />
+					<Add library="dll/libSDL2_mixer.dll.a" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+		</Compiler>
+		<Unit filename="header/FinPartie.h" />
+		<Unit filename="header/Jouer.h" />
+		<Unit filename="header/MenuJeu.h" />
+		<Unit filename="header/Opt.h" />
+		<Unit filename="header/StrToInt.h" />
+		<Unit filename="header/afficherMenu.h" />
+		<Unit filename="header/afficherPlateau.h" />
+		<Unit filename="header/afficherTir.h" />
+		<Unit filename="header/afficherTirIA.h" />
+		<Unit filename="header/changementJoueur.h" />
+		<Unit filename="header/choisirDiff.h" />
+		<Unit filename="header/choisirDir.h" />
+		<Unit filename="header/choisirNbPoste.h" />
+		<Unit filename="header/connecterOrdi.h" />
+		<Unit filename="header/connecterbouton.h" />
+		<Unit filename="header/creeGrille.h" />
+		<Unit filename="header/creecopieGrille.h" />
+		<Unit filename="header/creerPlateau.h" />
+		<Unit filename="header/faireMenu.h" />
+		<Unit filename="header/fermeFenetre.h" />
+		<Unit filename="header/main.h" />
+		<Unit filename="header/message.h" />
+		<Unit filename="header/mettreBateau.h" />
+		<Unit filename="header/modifgrilleCopie.h" />
+		<Unit filename="header/montrerGrille.h" />
+		<Unit filename="header/phasePlacement.h" />
+		<Unit filename="header/phaseTir.h" />
+		<Unit filename="header/placementIA.h" />
+		<Unit filename="header/placer.h" />
+		<Unit filename="header/repriseJeu.h" />
+		<Unit filename="header/resultatTir.h" />
+		<Unit filename="header/supprimerBouton.h" />
+		<Unit filename="header/tirer.h" />
+		<Unit filename="header/tirerSolo.h" />
+		<Unit filename="src/FinPartie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Jouer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/MenuJeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/Opt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/StrtoInt.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficherMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficherPlateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficherTir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/afficherTirIA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/changementJoueur.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/choisirDiff.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/choisirDir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/choisirNbPoste.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/connecterOrdi.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/connecterbouton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/creeGrille.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/creecopieGrille.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/creerPlateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/faireMenu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/fermeFenetre.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/main.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/message.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/mettreBateau.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/modifgrilleCopie.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/montrerGrille.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/phasePlacement.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/phaseTir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/placementIA.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/placer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/repriseJeu.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/resultatTir.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/supprimerBouton.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tirer.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Unit filename="src/tirerSolo.c">
+			<Option compilerVar="CC" />
+		</Unit>
+		<Extensions>
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>

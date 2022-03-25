@@ -1,0 +1,7 @@
+#ifndef CREECOPIEGRILLE_H_INCLUDED
+#define CREECOPIEGRILLE_H_INCLUDED
+
+
+GtkWidget*creecopieGrille();
+
+#endif // CREECOPIEGRILLE_H_INCLUDED
